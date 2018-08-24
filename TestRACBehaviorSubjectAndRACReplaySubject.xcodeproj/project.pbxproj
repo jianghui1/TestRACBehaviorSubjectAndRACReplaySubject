@@ -15,6 +15,7 @@
 		5ADBDF5221300EEE00B2BC1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBDF5121300EEE00B2BC1C /* main.m */; };
 		5ADBDF5C21300EEE00B2BC1C /* TestRACBehaviorSubjectAndRACReplaySubjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBDF5B21300EEE00B2BC1C /* TestRACBehaviorSubjectAndRACReplaySubjectTests.m */; };
 		5ADBDF6721300EEE00B2BC1C /* TestRACBehaviorSubjectAndRACReplaySubjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBDF6621300EEE00B2BC1C /* TestRACBehaviorSubjectAndRACReplaySubjectUITests.m */; };
+		DE1EB20C8A2AB6AB5D84DCCD /* libPods-TestRACBehaviorSubjectAndRACReplaySubjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB7390AB716522B9986EE52 /* libPods-TestRACBehaviorSubjectAndRACReplaySubjectTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		410A15385C961723B363A104 /* Pods-TestRACBehaviorSubjectAndRACReplaySubjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRACBehaviorSubjectAndRACReplaySubjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestRACBehaviorSubjectAndRACReplaySubjectTests/Pods-TestRACBehaviorSubjectAndRACReplaySubjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		5ADBDF3F21300EEB00B2BC1C /* TestRACBehaviorSubjectAndRACReplaySubject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRACBehaviorSubjectAndRACReplaySubject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ADBDF4221300EEB00B2BC1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5ADBDF4321300EEB00B2BC1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +53,9 @@
 		5ADBDF6221300EEE00B2BC1C /* TestRACBehaviorSubjectAndRACReplaySubjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestRACBehaviorSubjectAndRACReplaySubjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ADBDF6621300EEE00B2BC1C /* TestRACBehaviorSubjectAndRACReplaySubjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRACBehaviorSubjectAndRACReplaySubjectUITests.m; sourceTree = "<group>"; };
 		5ADBDF6821300EEE00B2BC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9944606FFC7A632D6B7ADE42 /* Pods-TestRACBehaviorSubjectAndRACReplaySubjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRACBehaviorSubjectAndRACReplaySubjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestRACBehaviorSubjectAndRACReplaySubjectTests/Pods-TestRACBehaviorSubjectAndRACReplaySubjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA36FD31E3CF70EF34FADB71 /* libPods-TestRACBehaviorSubjectAndRACReplaySubject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRACBehaviorSubjectAndRACReplaySubject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB7390AB716522B9986EE52 /* libPods-TestRACBehaviorSubjectAndRACReplaySubjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRACBehaviorSubjectAndRACReplaySubjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1EB20C8A2AB6AB5D84DCCD /* libPods-TestRACBehaviorSubjectAndRACReplaySubjectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +91,8 @@
 				5ADBDF5A21300EEE00B2BC1C /* TestRACBehaviorSubjectAndRACReplaySubjectTests */,
 				5ADBDF6521300EEE00B2BC1C /* TestRACBehaviorSubjectAndRACReplaySubjectUITests */,
 				5ADBDF4021300EEB00B2BC1C /* Products */,
+				F84E8B7FFB919B250A846B9D /* Pods */,
+				F2A0084EC719ABE3461D2D81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +140,24 @@
 			path = TestRACBehaviorSubjectAndRACReplaySubjectUITests;
 			sourceTree = "<group>";
 		};
+		F2A0084EC719ABE3461D2D81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA36FD31E3CF70EF34FADB71 /* libPods-TestRACBehaviorSubjectAndRACReplaySubject.a */,
+				ECB7390AB716522B9986EE52 /* libPods-TestRACBehaviorSubjectAndRACReplaySubjectTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F84E8B7FFB919B250A846B9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9944606FFC7A632D6B7ADE42 /* Pods-TestRACBehaviorSubjectAndRACReplaySubjectTests.debug.xcconfig */,
+				410A15385C961723B363A104 /* Pods-TestRACBehaviorSubjectAndRACReplaySubjectTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,6 +182,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5ADBDF6E21300EEE00B2BC1C /* Build configuration list for PBXNativeTarget "TestRACBehaviorSubjectAndRACReplaySubjectTests" */;
 			buildPhases = (
+				62774F8E0D95A80CA7FF62B8 /* [CP] Check Pods Manifest.lock */,
 				5ADBDF5321300EEE00B2BC1C /* Sources */,
 				5ADBDF5421300EEE00B2BC1C /* Frameworks */,
 				5ADBDF5521300EEE00B2BC1C /* Resources */,
@@ -256,6 +283,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62774F8E0D95A80CA7FF62B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestRACBehaviorSubjectAndRACReplaySubjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5ADBDF3B21300EEB00B2BC1C /* Sources */ = {
@@ -463,6 +515,7 @@
 		};
 		5ADBDF6F21300EEE00B2BC1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9944606FFC7A632D6B7ADE42 /* Pods-TestRACBehaviorSubjectAndRACReplaySubjectTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +534,7 @@
 		};
 		5ADBDF7021300EEE00B2BC1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 410A15385C961723B363A104 /* Pods-TestRACBehaviorSubjectAndRACReplaySubjectTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
